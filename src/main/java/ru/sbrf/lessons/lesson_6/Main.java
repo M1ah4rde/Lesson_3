@@ -7,8 +7,8 @@ import ru.sbrf.lessons.lesson_6.animals.Dog;
 public class Main {
     public static void main(String[] args) {
         Animal animal = new Animal();
-        Cat cat = new Cat();
-        Dog dog = new Dog();
+        Cat cat = new Cat("Alice");
+        Dog dog = new Dog("Roze");
 
         System.out.println("Animal opportunities: ");
         animal.Eat();

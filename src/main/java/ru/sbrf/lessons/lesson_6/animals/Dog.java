@@ -7,6 +7,13 @@ import ru.sbrf.lessons.lesson_6.opportunities.Swim;
 
 public class Dog implements Swim, Eat, MakeSounds, Move {
 
+
+    private String name;
+
+    public Dog(String name) {
+        this.name = name;
+    }
+
     @Override
     public void Swim() {
         System.out.println("The dog can swimming");
