@@ -7,6 +7,12 @@ import ru.sbrf.lessons.lesson_6.opportunities.Move;
 
 public class Cat implements ClimbUpTrees, Eat, MakeSounds, Move {
 
+    private String name;
+
+    public Cat(String name) {
+        this.name = name;
+    }
+
     @Override
     public void ClimbUpTrees() {
         System.out.println("The cat can climb trees");
