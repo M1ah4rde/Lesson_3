@@ -5,6 +5,7 @@ import ru.sbrf.lessons.lesson_6.opportunities.MakeSounds;
 import ru.sbrf.lessons.lesson_6.opportunities.Moving;
 
 public class Animal implements Eat, MakeSounds, Moving {
+
     @Override
     public void eat() {
         System.out.println("Животные могут принимать пищу");
